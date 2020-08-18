@@ -1,0 +1,71 @@
+/* белый #FFFFFF */
+/* цвет основного текста #757575 */
+/* вторичный цвет текста #212121 */
+/* дополнительный цвет текста rgba(255, 255, 255, 0.6) */
+/* цвет логотипа #000000 */
+/* цвет акцента #2196F3 */
+/* первичный цвет фона #E5E5E5*/
+/* вторичный ывет фона #F5F4FA */
+
+:root {
+  --primary-text-color: #757575;
+  --secondary-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-color: #e5e5e5;
+  --secondary-color: #f5f4fa;
+}
+
+body {
+  background-color: var(--primary-color);
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+/* Logo */
+
+.logo {
+  color: #000000;
+}
+
+.logo .accent {
+  color: var(--accent-color);
+}
+
+/* Site nav */
+
+.site-nav .link {
+  color: var(--secondary-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.communications .link {
+  color: var(--primary-text-color);
+}
+
+.communications .link:hover {
+  color: var(--accent-color);
+}
+
+/* Section */
+
+.section-title {
+  color: var(--secondary-text-color);
+}
+
+/* Features */
+
+.feature-list .title {
+  color: var(--secondary-text-color);
+}
+
+/* Team */
+
+.team-list .title {
+  color: var(--secondary-text-color);
+}
