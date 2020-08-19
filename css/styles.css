@@ -13,6 +13,8 @@
   --accent-color: #2196f3;
   --primary-color: #e5e5e5;
   --secondary-color: #f5f4fa;
+  --lite-color: #ffffff;
+  --dark-color: #2f303a;
 }
 
 body {
@@ -24,6 +26,9 @@ body {
   list-style: none;
 }
 
+.link {
+  text-decoration: none;
+}
 /* Logo */
 
 .logo {
@@ -62,10 +67,25 @@ body {
 
 .feature-list .title {
   color: var(--secondary-text-color);
+  text-transform: uppercase;
 }
 
 /* Team */
 
 .team-list .title {
   color: var(--secondary-text-color);
+}
+
+/* Footer */
+
+.footer {
+  color: #ffffff;
+  background-color: var(--dark-color);
+}
+.footer .title {
+  color: #ffffff;
+}
+
+.footer .link {
+  color: rgba(255, 255, 255, 0.6);
 }
