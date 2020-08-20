@@ -4,6 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
+    <!-- <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    /> -->
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -36,8 +46,8 @@
     </header>
     <main>
       <!-- Шапка -->
-      <section>
-        <h1>
+      <section class="header">
+        <h1 class="header-title">
           Эффективные решения для вашего бизнеса
         </h1>
         <!-- <a href="#">Заказать услугу</a> -->
@@ -110,7 +120,7 @@
       </section>
 
       <!-- Наша команда -->
-      <section class="section">
+      <section class="section team">
         <h2 class="section-title">Наша команда</h2>
 
         <ul class="team-list list">
@@ -121,7 +131,7 @@
               width="270"
             />
             <h3 class="title">Игорь Демьяненко</h3>
-            <p>Product Designer</p>
+            <p class="career">Product Designer</p>
           </li>
           <li>
             <img
@@ -130,12 +140,12 @@
               width="270"
             />
             <h3 class="title">Ольга Репина</h3>
-            <p>Frontend Developer</p>
+            <p class="career">Frontend Developer</p>
           </li>
           <li>
             <img src="./images/marketing.jpg" alt="Маркетолог" width="270" />
             <h3 class="title">Николай Тарасов</h3>
-            <p>Marketing</p>
+            <p class="career">Marketing</p>
           </li>
           <li>
             <img
@@ -144,7 +154,7 @@
               width="270"
             />
             <h3 class="title">Михаил Ермаков</h3>
-            <p>UI Designer</p>
+            <p class="career">UI Designer</p>
           </li>
         </ul>
       </section>
@@ -156,7 +166,7 @@
         <p class="title"><span class="accent">Web</span>Studio</p>
       </a>
       <!-- Адрес -->
-      <address>
+      <address class="address">
         г. Киев, пр-т Леси Украинки, 26 <br />
         <a class="link" href="mailto:info@example.com">info@example.com</a>
         <br />
