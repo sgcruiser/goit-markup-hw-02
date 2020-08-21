@@ -72,6 +72,11 @@ button {
 .site-nav .link:focus {
   color: var(--accent-color);
 }
+
+.site-nav .link-active {
+  color: var(--accent-color);
+}
+
 .communications .link {
   color: var(--primary-text-color);
 
@@ -82,6 +87,10 @@ button {
 
 .communications .link:hover {
   color: var(--accent-color);
+}
+
+.none-display {
+  display: none;
 }
 
 /* ----- Стили главной страницы index.html ----- */
@@ -101,6 +110,17 @@ button {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+}
+
+.header .button {
+  background-color: var(--accent-color);
+
+  color: var(--primary-color);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
 }
 
 /* Section */
@@ -137,7 +157,6 @@ button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  /* identical to box height */
 }
 
 .team-list .career {
@@ -182,4 +201,22 @@ button {
 
   font-size: 16px;
   line-height: 1.87;
+}
+
+.filter .button {
+  background-color: var(--secondary-color);
+
+  color: var(--secondary-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+}
+
+.filter .button:hover,
+.filter .button:focus,
+.filter .button:active {
+  background-color: var(--accent-color);
+
+  color: var(--primary-color);
 }
