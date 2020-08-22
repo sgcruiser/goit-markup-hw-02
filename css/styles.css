@@ -85,7 +85,8 @@ button {
   letter-spacing: 0.02em;
 }
 
-.communications .link:hover {
+.communications .link:hover,
+.communications .link:focus {
   color: var(--accent-color);
 }
 
@@ -121,6 +122,13 @@ button {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
+}
+
+.header .button:hover,
+.header .button:focus {
+  background-color: var(--primary-color);
+
+  color: var(--secondary-text-color);
 }
 
 /* Section */
@@ -181,6 +189,11 @@ button {
 
 .address .link {
   color: rgba(255, 255, 255, 0.6);
+}
+
+.address .link:hover,
+.address .link:focus {
+  color: var(--accent-color);
 }
 
 /* ----- Стили  страницы portfolio.html ----- */
